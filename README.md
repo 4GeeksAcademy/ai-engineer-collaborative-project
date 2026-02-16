@@ -17,7 +17,7 @@ _Estas instrucciones están [disponibles en español](./README.es.md)_.
 
 ---
 
-## Your challenge
+## 🎯 Your challenge
 
 You are working on a small development team at a consulting firm, and a new project has just landed: **a well-known French clothing brand** wants a **visual and functional prototype** for their upcoming online store.
 

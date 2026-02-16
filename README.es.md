@@ -17,7 +17,7 @@ Por [@marcogonzalo](https://github.com/marcogonzalo) y [otros contribuidores](ht
 
 ---
 
-## Tu reto
+## 🎯 Tu reto
 
 Estás trabajando en un pequeño equipo de desarrollo dentro de una consultora y acaba de llegar un nuevo proyecto: **una reconocida marca de ropa con sede en Francia** quiere un **prototipo visual y funcional** para su próxima tienda online.
 

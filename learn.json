@@ -1,0 +1,15 @@
+{
+  "grading": null,
+  "difficulty": "beginner",
+  "duration": 5,
+  "description": {
+    "us": ""
+  },
+  "title": {
+    "us": "My Interactive Tutorial"
+  },
+  "slug": "my-interactive-tutorial",
+  "telemetry": {
+    "batch": "https://breathecode.herokuapp.com/v1/assignment/me/telemetry"
+  }
+}

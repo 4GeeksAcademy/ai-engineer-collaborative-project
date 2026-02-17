@@ -1,4 +1,4 @@
-# My First Collaborative Professional Project
+# My first collaborative professional project
 
 <!-- hide -->
 

@@ -37,75 +37,89 @@ Antes de avanzar a desarrollo completo, necesitan ver un prototipo que incluya *
 
 Ha llegado el momento de brillar. La consultora armó un equipo para el proyecto y te asignó a ti y a otra persona para sacarlo adelante.
 
-Tu _project manager_ te ha compartido un documento con la estructura mínima de cada vista para evitar olvidos y asegurar que el prototipo cubra lo que el cliente espera.
-
 ### Especificaciones por vista
 
-#### 1) Página de inicio (Home)
+Tu _project manager_ te ha compartido un documento con la estructura mínima de cada vista para evitar olvidos y asegurar que el prototipo cubra lo que el cliente espera.
 
-- **Barra superior (navbar)** con:
-  - Logo
-  - Barra de búsqueda
-  - Menú de cuenta de usuario
-- **Sección Hero** destacando productos especiales o campañas de la marca.
-- Dos secciones con listados horizontales (_cards_ de producto):
-  - **Nuevos lanzamientos**
-  - **Más vendidos**
-- **Footer** con secciones:
-  - **Categorías:** calzado, camisas, pantalones, accesorios
-  - **Legal:** términos y condiciones, política de privacidad, sobre la marca
-  - **Contacto**
-- **La navbar y el footer se reutilizan** en todas las demás vistas.
-
-#### 2) Catálogo
-
-- Mantiene **navbar y footer**.
-- Incluye una **barra de filtros** antes del listado:
-  - Filtro por **categoría**
-  - Filtro por **talla**
-- Listado de productos en **rejilla (grid) 4×5** (20 productos visibles como referencia).
-
-#### 3) Vista de producto
-
-- Diseño en dos columnas:
-  - **Izquierda:** foto del producto ocupando aproximadamente **la mitad del ancho**.
-  - **Derecha:** información principal del producto:
-    - Nombre
-    - Código o referencia
-    - Talla
-    - Precio
-    - Selector de cantidad
-    - Botón **"Agregar al carrito"**
-- Debajo, una sección de **descripción detallada**:
-  - Materiales
-  - Uso recomendado / escenarios donde se puede usar la prenda
-
-#### 4) Carrito
-
-- Vista completa del carrito (no un panel lateral).
-- Listado de productos añadidos con:
-  - Miniatura
-  - Precio unitario
-  - Cantidad
-  - Total por producto
-- Cuadro de totalización con:
-  - Subtotal
-  - Impuestos
-  - Total
-  - Botón **"Comprar"**
-- Añadir **3 productos de ejemplo** para mostrar el comportamiento visual.
-
-#### 5) Formulario de pago (Checkout)
-
-Flujo en **3 pasos**:
-
-1. **Datos personales**
-2. **Dirección de entrega**
-3. **Pago con tarjeta** (datos de tarjeta)
+> #### 1) Página de inicio (Home)
+>
+> - **Barra superior (navbar)** con:
+>   - Logo
+>   - Barra de búsqueda
+>   - Menú de cuenta de usuario
+> - **Sección Hero** destacando productos especiales o campañas de la marca.
+> - Dos secciones con listados horizontales (_cards_ de producto):
+>   - **Nuevos lanzamientos**
+>   - **Más vendidos**
+> - **Footer** con secciones:
+>   - **Categorías:** calzado, camisas, pantalones, accesorios
+>   - **Legal:** términos y condiciones, política de privacidad, sobre la marca
+>   - **Contacto**
+> - **La navbar y el footer se reutilizan** en todas las demás vistas.
+>
+> #### 2) Catálogo
+>
+> - Mantiene **navbar y footer**.
+> - Incluye una **barra de filtros** antes del listado:
+>   - Filtro por **categoría**
+>   - Filtro por **talla**
+> - Listado de productos en **rejilla (grid) 4×5** (20 productos visibles como referencia).
+>
+> #### 3) Vista de producto
+>
+> - Diseño en dos columnas:
+>   - **Izquierda:** foto del producto ocupando aproximadamente **la mitad del ancho**.
+>   - **Derecha:** información principal del producto:
+>     - Nombre
+>     - Código o referencia
+>     - Talla
+>     - Precio
+>     - Selector de cantidad
+>     - Botón **"Agregar al carrito"**
+> - Debajo, una sección de **descripción detallada**:
+>   - Materiales
+>   - Uso recomendado / escenarios donde se puede usar la prenda
+>
+> #### 4) Carrito
+>
+> - Vista completa del carrito (no un panel lateral).
+> - Listado de productos añadidos con:
+>   - Miniatura
+>   - Precio unitario
+>   - Cantidad
+>   - Total por producto
+> - Cuadro de totalización con:
+>   - Subtotal
+>   - Impuestos
+>   - Total
+>   - Botón **"Comprar"**
+> - Añadir **3 productos de ejemplo** para mostrar el comportamiento visual.
+>
+> #### 5) Formulario de pago (Checkout)
+>
+> Flujo en **3 pasos**:
+>
+> 1. **Datos personales**
+> 2. **Dirección de entrega**
+> 3. **Pago con tarjeta** (datos de tarjeta)
 
 Ahora sí: toca construir un prototipo claro, consistente y responsive que demuestre el potencial de la tienda y facilite la aprobación del cliente. **¡Manos a la obra!** 😁
 
 > **⚠️ IMPORTANTE:** En este proyecto solo usaremos **HTML y Tailwind CSS**. Asegúrate de que tu IA Copiloto **no incluya tecnologías más avanzadas** (por ejemplo, React). Indícalo desde el inicio del trabajo.
+
+---
+
+## 🌱 Cómo iniciar el proyecto
+
+Abre el repositorio de plantilla usando una herramienta de aprovisionamiento como [Codespaces](https://4geeks.com/lesson/what-is-github-codespaces) (recomendado) o clónalo en local:
+
+```text
+https://github.com/4GeeksAcademy/html-hello
+```
+
+Sigue los pasos en [cómo comenzar un proyecto de codificación](https://4geeks.com/es/lesson/como-comenzar-un-proyecto-de-codificacion).
+
+💡 **Importante:** Crea un nuevo repositorio en GitHub para tu código, actualiza el remoto (`git remote set-url origin <tu-nueva-url>`) y sube los cambios con `add`, `commit` y `push`.
 
 ---
 
@@ -153,20 +167,6 @@ El proyecto entregado debe tener **al menos 5 documentos HTML** (uno por vista) 
 ## 📦 Cómo entregar este proyecto
 
 Sigue los pasos habituales de entrega para subir tu repositorio a GitHub y compártelo según las indicaciones de tu instructor.
-
----
-
-## 🌱 Cómo iniciar el proyecto
-
-Abre el repositorio de plantilla usando una herramienta de aprovisionamiento como [Codespaces](https://4geeks.com/lesson/what-is-github-codespaces) (recomendado) o clónalo en local:
-
-```bash
-https://github.com/4GeeksAcademy/html-hello
-```
-
-Sigue los pasos en [cómo comenzar un proyecto de codificación](https://4geeks.com/es/lesson/como-comenzar-un-proyecto-de-codificacion).
-
-💡 **Importante:** Crea un nuevo repositorio en GitHub para tu código, actualiza el remoto (`git remote set-url origin <tu-nueva-url>`) y sube los cambios con `add`, `commit` y `push`.
 
 ---
 

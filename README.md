@@ -37,75 +37,89 @@ Before moving to full development, they need to see a prototype that includes **
 
 Time to shine. The consulting firm put together a team for the project and assigned you and one other person to get it done.
 
-Your _project manager_ has shared a document with the minimum structure for each view to avoid oversights and ensure the prototype meets the client’s expectations.
-
 ### Specifications by view
 
-#### 1) Home page
+Your _project manager_ has shared a document with the minimum structure for each view to avoid oversights and ensure the prototype meets the client’s expectations.
 
-- **Top bar (navbar)** with:
-  - Logo
-  - Search bar
-  - User account menu
-- **Hero section** highlighting special products or brand campaigns.
-- Two sections with horizontal product lists (_cards_):
-  - **New arrivals**
-  - **Best sellers**
-- **Footer** with sections:
-  - **Categories:** footwear, shirts, pants, accessories
-  - **Legal:** terms and conditions, privacy policy, about the brand
-  - **Contact**
-- **The navbar and footer are reused** across all other views.
-
-#### 2) Catalog
-
-- Keeps **navbar and footer**.
-- Includes a **filter bar** before the list:
-  - Filter by **category**
-  - Filter by **size**
-- Product list in a **4×5 grid** (20 products visible as reference).
-
-#### 3) Product view
-
-- Two-column layout:
-  - **Left:** product image taking roughly **half the width**.
-  - **Right:** main product information:
-    - Name
-    - Code or reference
-    - Size
-    - Price
-    - Quantity selector
-    - **"Add to cart"** button
-- Below, a **detailed description** section:
-  - Materials
-  - Recommended use / scenarios for wearing the item
-
-#### 4) Cart
-
-- Full cart view (not a side panel).
-- List of added products with:
-  - Thumbnail
-  - Unit price
-  - Quantity
-  - Total per product
-- Summary box with:
-  - Subtotal
-  - Tax
-  - Total
-  - **"Purchase"** button
-- Add **3 sample products** to show the visual behavior.
-
-#### 5) Payment form (Checkout)
-
-Flow in **3 steps**:
-
-1. **Personal details**
-2. **Shipping address**
-3. **Card payment** (card details)
+> #### 1) Home page
+>
+> - **Top bar (navbar)** with:
+>   - Logo
+>   - Search bar
+>   - User account menu
+> - **Hero section** highlighting special products or brand campaigns.
+> - Two sections with horizontal product lists (_cards_):
+>   - **New arrivals**
+>   - **Best sellers**
+> - **Footer** with sections:
+>   - **Categories:** footwear, shirts, pants, accessories
+>   - **Legal:** terms and conditions, privacy policy, about the brand
+>   - **Contact**
+> - **The navbar and footer are reused** across all other views.
+>
+> #### 2) Catalog
+>
+> - Keeps **navbar and footer**.
+> - Includes a **filter bar** before the list:
+>   - Filter by **category**
+>   - Filter by **size**
+> - Product list in a **4×5 grid** (20 products visible as reference).
+>
+> #### 3) Product view
+>
+> - Two-column layout:
+>   - **Left:** product image taking roughly **half the width**.
+>   - **Right:** main product information:
+>     - Name
+>     - Code or reference
+>     - Size
+>     - Price
+>     - Quantity selector
+>     - **"Add to cart"** button
+> - Below, a **detailed description** section:
+>   - Materials
+>   - Recommended use / scenarios for wearing the item
+>
+> #### 4) Cart
+>
+> - Full cart view (not a side panel).
+> - List of added products with:
+>   - Thumbnail
+>   - Unit price
+>   - Quantity
+>   - Total per product
+> - Summary box with:
+>   - Subtotal
+>   - Tax
+>   - Total
+>   - **"Purchase"** button
+> - Add **3 sample products** to show the visual behavior.
+>
+> #### 5) Payment form (Checkout)
+>
+> Flow in **3 steps**:
+>
+> 1. **Personal details**
+> 2. **Shipping address**
+> 3. **Card payment** (card details)
 
 Now it’s time to build a clear, consistent, and responsive prototype that shows the store’s potential and makes it easy for the client to approve. **Let’s get to it!** 😁
 
 > **⚠️ IMPORTANT:** In this project we will only use **HTML and Tailwind CSS**. Make sure your AI Copilot **does not include more advanced technologies** (e.g., React). State this from the beginning.
+
+---
+
+## 🌱 How to start the project
+
+Open the template repository using a provisioning tool such as [Codespaces](https://4geeks.com/lesson/what-is-github-codespaces) (recommended) or clone it locally:
+
+```text
+https://github.com/4GeeksAcademy/html-hello
+```
+
+Follow the steps in [how to start a coding project](https://4geeks.com/lesson/how-to-start-a-coding-project).
+
+💡 **Important:** Create a new repository on GitHub for your code, update the remote (`git remote set-url origin <your-new-url>`) and push your changes with `add`, `commit` and `push`.
 
 ---
 
@@ -153,20 +167,6 @@ The submitted project must have **at least 5 HTML documents** (one per view) and
 ## 📦 How to submit this project
 
 Follow the usual submission steps to push your repository to GitHub and share it according to your instructor’s instructions.
-
----
-
-## 🌱 How to start the project
-
-Open the template repository using a provisioning tool such as [Codespaces](https://4geeks.com/lesson/what-is-github-codespaces) (recommended) or clone it locally:
-
-```bash
-https://github.com/4GeeksAcademy/html-hello
-```
-
-Follow the steps in [how to start a coding project](https://4geeks.com/lesson/how-to-start-a-coding-project).
-
-💡 **Important:** Create a new repository on GitHub for your code, update the remote (`git remote set-url origin <your-new-url>`) and push your changes with `add`, `commit` and `push`.
 
 ---
 
